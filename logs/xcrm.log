@@ -1,0 +1,29 @@
+[ERROR] [2015-10-18 17:24:28][com.dimon.xcrm.controller.LoginController]is error
+  [INFO] [2015-10-18 17:27:20][com.dimon.xcrm.controller.LoginController]debug
+  [ERROR] [2015-10-18 17:27:20][com.dimon.xcrm.controller.LoginController]is error
+  [INFO] [2015-10-18 17:27:33][com.dimon.xcrm.controller.LoginController]info
+  [ERROR] [2015-10-18 17:27:33][com.dimon.xcrm.controller.LoginController]is error
+  [DEBUG] [2015-10-18 17:27:52][com.dimon.xcrm.controller.LoginController]debug
+  [INFO] [2015-10-18 17:27:52][com.dimon.xcrm.controller.LoginController]info
+  [ERROR] [2015-10-18 17:27:52][com.dimon.xcrm.controller.LoginController]is error
+  [INFO] [2015-10-18 17:31:59][com.dimon.xcrm.controller.LoginController]info
+  [ERROR] [2015-10-18 17:31:59][com.dimon.xcrm.controller.LoginController]is error
+  [INFO] [2015-10-18 17:37:29][com.dimon.xcrm.controller.LoginController]info
+  [ERROR] [2015-10-18 17:37:29][com.dimon.xcrm.controller.LoginController]is error
+  [INFO] [2015-10-18 17:37:55][com.dimon.xcrm.controller.LoginController]info
+  [ERROR] [2015-10-18 17:37:55][com.dimon.xcrm.controller.LoginController]is error
+  [INFO] [2015-10-18 17:39:33][com.dimon.xcrm.controller.LoginController]info
+  [ERROR] [2015-10-18 17:39:33][com.dimon.xcrm.controller.LoginController]is error
+  [INFO]=[15/10/18 17:43:14][com.dimon.xcrm.controller.LoginController] - info
+   [ERROR]=[15/10/18 17:43:14][com.dimon.xcrm.controller.LoginController] - is error
+   [INFO]=[15/10/19 15:42:36][com.dimon.xcrm.logic.LoginLogic] - 输出info日志
+   [ERROR]=[15/10/19 15:42:37][com.dimon.xcrm.logic.LoginLogic] - 输出error日志
+   [INFO]=[15/10/19 15:48:29][com.dimon.xcrm.logic.LoginLogic] - 输出info日志
+   [ERROR]=[15/10/19 15:48:29][com.dimon.xcrm.logic.LoginLogic] - 输出error日志
+   [INFO]=[15/10/19 15:48:29][com.dimon.xcrm.logic.LoginLogic] - x is y
+   [INFO]=[15/10/19 15:48:55][com.dimon.xcrm.logic.LoginLogic] - 输出info日志
+   [ERROR]=[15/10/19 15:48:55][com.dimon.xcrm.logic.LoginLogic] - 输出error日志
+   [INFO]=[15/10/19 15:48:55][com.dimon.xcrm.logic.LoginLogic] - x is y
+   [INFO]=[15/10/19 15:51:25][com.dimon.xcrm.logic.LoginLogic] - 输出{}日志info
+   [ERROR]=[15/10/19 15:51:25][com.dimon.xcrm.logic.LoginLogic] - 输出{}日志error
+   
