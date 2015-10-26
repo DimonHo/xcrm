@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
  * @createDate 2015年10月20日 上午9:52:15
  */
 @Controller
-@RequestMapping("/file")
+@RequestMapping("/files")
 public class FileController {
 	private static Logger logger = LoggerFactory.getLogger(FileController.class);
 	
