@@ -32,9 +32,9 @@
 							<label class="sr-only" for="inputAccount">账号</label>
 							<div class="input-group">
 								<div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
-								<input class="form-control" id="inputAccount" name="accountNo" type="text" placeholder="账号" required autofocus>
+								<input class="form-control" id="inputAccount" name="acctNo" type="text" placeholder="账号" required autofocus>
 							</div>
-							<div class="hidden text-center" id="accountMsg"><span class="glyphicon glyphicon-exclamation-sign"></span>用户名不存在</div>
+							<div class="hidden text-center" id="acctMsg"><span class="glyphicon glyphicon-exclamation-sign"></span>用户名不存在</div>
 						</div>
 						<br>
 						<div class="form-group-lg" id="pwdDiv">

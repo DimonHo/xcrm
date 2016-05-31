@@ -8,8 +8,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.dimon.xcrm.dao.XUserMapper;
-import com.dimon.xcrm.pojo.XUser;
+
+import com.dimon.xcrm.dao.XuserMapper;
+import com.dimon.xcrm.pojo.Xuser;
 import com.dimon.xcrm.util.RequestUtils;
 
 @Component
@@ -20,13 +21,13 @@ public class LoginLogic {
 	 */
 	private static Logger logger = LoggerFactory.getLogger(LoginLogic.class);
 	@Autowired
-	private XUserMapper userDao;
+	private XuserMapper userDao;
 	
 	public static HttpSession webSession;
 	
 	public String successLogin(HttpServletRequest request){
 		String accountNo = RequestUtils.getString(request, "accountNo");
-		XUser user = userDao.selectByAcccountNo(accountNo);
+		Xuser user = userDao.selectByAcctNo(accountNo);
 		webSession = request.getSession();
 		webSession.setAttribute("loginObj", user);
 		String ipAddr = RequestUtils.getIpAddr(request);

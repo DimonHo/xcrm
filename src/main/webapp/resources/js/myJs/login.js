@@ -1,13 +1,13 @@
 $("#btn_login").click(function(){
 	var loginObj = new Object();
-	loginObj.accountNo= $("#inputAccount").val();
+	loginObj.acctNo= $("#inputAccount").val();
 	loginObj.pwd= $("#inputPassword").val();
 	var loginJson = JSON.stringify(loginObj); //将JSON对象转化为JSON字符 	
 	$.post("validateLogin.do",
 			{"loginObj":loginJson},
 			function(e){
 				e=JSON.parse(e); //由JSON字符串转换为JSON对象
-				if(e.accountMsg){
+				if(e.acctMsg){
 					$("#accountDiv").addClass("has-error");
 					$("#accountMsg").removeClass("hidden");
 					
