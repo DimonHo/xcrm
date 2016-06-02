@@ -51,5 +51,5 @@ public interface XuserMapper {
      */
     int updateByPrimaryKey(Xuser record);
     
-    Xuser selectByAcctNo(String accTNo);
+    Xuser selectByAcctNo(String acctNo);
 }

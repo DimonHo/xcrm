@@ -286,8 +286,17 @@ public class RequestUtils {
         return request.getLocale().getLanguage() + "_" + request.getLocale().getCountry();
     }
     
+    
+    //获得客户端真实IP地址的方法一：
+    public String getRemortIP(HttpServletRequest request) {  
+        if (request.getHeader("x-forwarded-for") == null) {  
+            return request.getRemoteAddr();  
+        }  
+        return request.getHeader("x-forwarded-for");  
+    }  
+ 
     /**
-     * 获取客户端IP地址
+     * 获取客户端IP地址二
      * @param request
      * @return
      */
